@@ -669,9 +669,7 @@ ol ul {
   }
 }
 
-.rts-section-gapTop {
-  padding-top: 120px;
-}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rts-section-gapTop {
     padding-top: 70px;
@@ -16115,6 +16113,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   display: block;
   border-radius: 10px;
   height: 100%;
+  
 }
 .single-service-area-3 .icon {
   position: absolute;
@@ -29320,4 +29319,21 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
 
 .rts-testimonials-area {
   background-color: #F84E1D;
+}
+
+
+.single-service-style-4 .icon {
+  background-color: #F84E1D !important;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; 
+  font-size: 24px; 
+}
+
+.single-service-style-4 .top {
+  height: 300px;
 }
