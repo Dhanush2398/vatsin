@@ -15719,7 +15719,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 .title-center-style-one .pre {
   font-size: 16px;
   font-weight: 600;
-  color: var(--color-primary);
+  color: #fff;
   text-transform: uppercase;
   margin-bottom: 13px;
   display: block;
@@ -29316,4 +29316,8 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
 
 .single-process-wrapper-4 h5{
   color: #000;
+}
+
+.rts-testimonials-area {
+  background-color: #F84E1D;
 }
