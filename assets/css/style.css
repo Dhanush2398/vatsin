@@ -20424,8 +20424,8 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 
 .our-working-process-area-4 {
-  background-image: url(../images/working-process/03.webp);
-  height: 600px;
+  background-image: url(../images/service/02.jpg);
+  height: 350px;
 }
 .our-working-process-area-4 .marque-wrapper {
   padding-top: 100px;
@@ -29313,3 +29313,6 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
  height: 100px;
 }
 
+.single-process-wrapper-4 h5{
+  color: #000;
+}
