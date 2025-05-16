@@ -16357,8 +16357,8 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 .single-service-area-five .icon-area .icon {
   width: 87px;
   height: 87px;
-  background: #141416;
-  border: 1px solid #2E2E31;
+  background: #F84E1D;
+  border: 1px solid #F84E1D;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -20405,7 +20405,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 .single-working-process-area .icon {
   height: 99px;
   min-width: 99px;
-  background: #1E1E20;
+  background: #F84E1D;
   border: 1px solid #303032;
   border-radius: 5px;
   display: flex;
@@ -20496,7 +20496,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background: #1F1F23;
+  background: #F84E1D;
   border: 1px solid #2A2A31;
   box-shadow: 0px 10px 35px rgba(17, 17, 20, 0.7);
   z-index: -1;
@@ -29272,7 +29272,8 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
 /*# sourceMappingURL=../maps/style.css.map */
 
 .icon-orange {
-  color: #F84E1D !important;
+  color: fff !important;
+  font-size: 50px !important;
 }
 
 .banner-area-one-start {
@@ -29346,4 +29347,8 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
 }
 .single-service-style-4 .thumbnail img{
   height: 250px;
+}
+
+.icon-area i{
+  color: #fff;
 }
