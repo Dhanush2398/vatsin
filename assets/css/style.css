@@ -29337,3 +29337,13 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
 .single-service-style-4 .top {
   height: 300px;
 }
+
+
+@media (max-width: 768px) {
+  .logo-area img {
+    height: 80px !important; 
+  }
+}
+.thumbnail img{
+  height: 250px;
+}
