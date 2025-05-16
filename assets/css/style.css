@@ -11962,7 +11962,7 @@ Copyright (c) 2015 Daniel Eden
 .heder-one {
   max-width: 1820px;
   margin: auto;
-  background: #1E1E20;
+  background: #fff;
   margin-top: 50px;
   border-radius: 10px;
   margin-bottom: 19px;
@@ -12048,7 +12048,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 .heder-one .header-two-container .header-main-wrapper .rts-header-right {
-  border-left: 1px solid #2C2C31;
+  border-left: 1px solid #F84E1D;
   position: relative;
   flex-basis: 87%;
 }
@@ -12060,8 +12060,8 @@ Copyright (c) 2015 Daniel Eden
 }
 @media screen and (max-width: 1200px) {
   .heder-one .header-two-container .header-main-wrapper .rts-header-right {
-    border-left: 0px solid #2C2C31 !important;
-    border-right: 0px solid #2C2C31 !important;
+    border-left: 0px solid #F84E1D !important;
+    border-right: 0px solid #F84E1D !important;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -12079,7 +12079,7 @@ Copyright (c) 2015 Daniel Eden
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #2C2C31;
+  border: 1px solid #fff;
   height: 55px;
   width: 55px;
   background: #fff;
@@ -12094,7 +12094,7 @@ Copyright (c) 2015 Daniel Eden
   align-items: center;
   justify-content: space-between;
   gap: 444px;
-  border-bottom: 1px solid #2C2C31;
+  border-bottom: 1px solid #F84E1D;
 }
 @media screen and (max-width: 1820px) {
   .heder-one .header-two-container .header-main-wrapper .rts-header-right .top {
@@ -12130,7 +12130,7 @@ Copyright (c) 2015 Daniel Eden
   display: flex;
   align-items: center;
   gap: 50px;
-  border-left: 1px solid #2C2C31;
+  border-left: 1px solid #fff;
   padding-left: 50px;
   padding: 18px 0;
   padding-right: 110px;
@@ -12150,19 +12150,19 @@ Copyright (c) 2015 Daniel Eden
   transform: translateY(-50%);
   height: 5px;
   width: 5px;
-  background: #fff;
+  background: #000;
   border-radius: 50%;
 }
 .heder-one .header-two-container .header-main-wrapper .rts-header-right .top .end-top .single-info p,
 .heder-one .header-two-container .header-main-wrapper .rts-header-right .top .end-top .single-info a {
-  color: #fff;
+  color: #000;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   font-family: var(--font-primary);
 }
 .heder-one .header-two-container .header-main-wrapper .rts-header-right .top .end-top .single-info i {
-  color: #fff;
+  color: #F84E1D;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -12237,6 +12237,7 @@ Copyright (c) 2015 Daniel Eden
 @media (max-width: 1599px) and (min-width: 1024px) {
   .heder-one .header-two-container .header-main-wrapper .rts-header-right .bottom .nav-area ul li a {
     font-size: 14px;
+    color: #000 !important;
   }
 }
 .heder-one .header-two-container .header-main-wrapper .rts-header-right .bottom .nav-area ul li a:hover {
@@ -12751,7 +12752,7 @@ header.heder-one .nav-btn {
   }
 }
 header.heder-one .nav-btn img {
-  filter: brightness(0) saturate(100%) invert(100%) sepia(94%) saturate(17%) hue-rotate(189deg) brightness(104%) contrast(100%);
+  filter: #000;
 }
 
 header.header-four.sticky .header-top {
@@ -12980,7 +12981,7 @@ li.has-dropdown:hover::after {
 }
 .rts-btn.btn-primary.border.bg-transparent:hover {
   background: var(--color-primary) !important;
-  color: #fff;
+  color: #000;
 }
 .rts-btn.btn-primary.border.bg-transparent:hover img {
   filter: brightness(0) saturate(100%) invert(100%) sepia(10%) saturate(7500%) hue-rotate(241deg) brightness(114%) contrast(108%);
@@ -14249,7 +14250,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 .social-header span {
   font-size: 15px;
-  color: #fff;
+  color: #000;
 }
 .social-header ul {
   padding: 0;
@@ -14264,7 +14265,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   padding: 0;
 }
 .social-header ul li a i {
-  color: #fff;
+  color: #000;
   font-size: 18px;
   transition: 0.3s;
 }
