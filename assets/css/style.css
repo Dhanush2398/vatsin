@@ -29352,3 +29352,35 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
 .icon-area i{
   color: #fff;
 }
+
+.service-content-inner-wrapper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  padding: 40px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.service-content-inner-wrapper .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+.service-content-inner-wrapper .inner {
+  position: relative;
+  z-index: 2;
+}
+
+.service-content-inner-wrapper .title,
+.service-content-inner-wrapper .disc,
+.service-content-inner-wrapper .single,
+.service-content-inner-wrapper .rts-btn {
+  color: #fff;
+}
