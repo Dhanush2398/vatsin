@@ -29354,6 +29354,7 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
 }
 .single-service-style-4 .thumbnail img{
   height: 250px;
+  width: 100%;
 }
 
 .icon-area i{
