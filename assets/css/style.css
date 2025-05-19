@@ -15463,7 +15463,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 
 .read-more-btn {
-  color: var(--color-heading-dark);
+  color: #fff;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -19530,10 +19530,11 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 
 .rts-blog-card-one {
-  background: #fff;
+  background: #2A4759;
   display: block;
   overflow: hidden;
   border-radius: 10px;
+  height: 600px;
 }
 .rts-blog-card-one .thumbnail {
   display: block;
@@ -19575,7 +19576,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   }
 }
 .rts-blog-card-one .inner-wrapper a .title {
-  color: var(--color-heading-dark);
+  color: #fff;
   font-size: 22px;
   margin-bottom: 0;
   padding-bottom: 22px;
@@ -19589,6 +19590,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 .rts-blog-card-one .inner-wrapper p.disc {
   margin-bottom: 25px;
   font-size: 15px;
+  color: #fff;
 }
 
 .blog-list-card-wrapper {
@@ -29360,4 +29362,7 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
 
 .icon-area i{
   color: #fff;
+}
+.rts-blog-card-one img{
+  height: 300px;
 }
