@@ -16182,7 +16182,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 
 .single-service-style-4 {
-  background: #141416;
+  background: #2A4759;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -16209,7 +16209,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   margin-bottom: 7px;
 }
 .single-service-style-4 .top p.disc {
-  color: #7C7C84;
+  color: #fff;
   margin-bottom: 0;
 }
 .single-service-style-4 .thumbnail {
@@ -29340,6 +29340,7 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
   justify-content: center;
   border-radius: 50%; 
   font-size: 24px; 
+  border-color:#F84E1D !important;
 }
 
 .single-service-style-4 .top {
