@@ -16080,7 +16080,6 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 .service-content-inner-wrapper .inner .wrapper-check-area-start {
   max-width: 400px;
-  display: flex;
   align-items: center;
   flex-wrap: wrap;
   column-gap: 45px;
@@ -16310,7 +16309,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 
 .single-service-area-five {
-  padding: 60px;
+  padding: 50px;
   width: 540px;
   border: 1px solid #2E2E31;
   height: 50%;
