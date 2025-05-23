@@ -20676,6 +20676,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 10px;
 }
 @media only screen and (max-width: 991px) {
   .contact-area-footer-top {
