@@ -22183,7 +22183,7 @@ edit .quantity-edit button {
   top: 0;
 }
 .single-branding-area-wrapper-one:hover .inner a .title {
-  color: var(--color-primary);
+  color:#fff;
 }
 
 .progress-wrapper-main .single-progress-area-h {
