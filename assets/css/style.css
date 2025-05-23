@@ -29350,11 +29350,12 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
   .logo-area img {
     height: 80px !important; 
   }
 }
+
 .single-service-style-4 .thumbnail img{
   height: 250px;
   width: 100%;
@@ -29474,4 +29475,7 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
   .grid-two-column {
     grid-template-columns: 1fr;
   }
+}
+.rts-blog-card-one{
+  height: 620px;
 }
