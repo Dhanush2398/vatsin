@@ -29370,3 +29370,107 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
 .single-branding-area-wrapper-one img{
   height: 200px;
 }
+
+.content-section {
+  background: #17191C;
+  color: #f1f1f1;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #F84E1D;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 30px;
+  font-size: 18px;
+}
+
+.image-block img {
+  height: 200px;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+
+.grid-two-column,
+.grid-three-column {
+  display: grid;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.grid-two-column {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-column {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+ul li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: #F84E1D;
+}
+
+.section-divider {
+  border: 0;
+  height: 2px;
+  background: #F84E1D;
+  margin: 60px auto;
+  width: 60%;
+}
+
+.content-section i {
+  color: #F84E1D; 
+  margin-right: 8px;
+}
+
+
+.content-section h2 i,
+.content-section h3 i,
+.content-section h4 i {
+  font-size: 1.1em;
+  vertical-align: middle;
+}
+
+
+.content-section ul li i {
+  font-size: 1em;
+  color: #F84E1D;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.grid-two-column {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+@media screen and (max-width: 768px) {
+  .grid-two-column {
+    grid-template-columns: 1fr;
+  }
+}
