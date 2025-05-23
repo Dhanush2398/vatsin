@@ -29504,3 +29504,8 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
 .rts-blog-card-one{
   height: 620px;
 }
+
+.service-details-main-wrapper-thumbnail img{
+  height: 260px;
+  width: 400px;
+}
