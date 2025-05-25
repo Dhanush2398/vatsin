@@ -29509,3 +29509,45 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
   height: 260px;
   width: 400px;
 }
+
+.product-details-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.product-header .product-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.product-subtitle {
+  font-size: 18px;
+  color: #777;
+}
+
+.product-description p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.7;
+}
+
+.icon-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.icon-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.icon-list i {
+  color: #F84E1D;
+  margin-right: 10px;
+}
+.product-header h2{
+  color: #F84E1D;
+}
