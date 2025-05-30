@@ -22788,7 +22788,10 @@ edit .quantity-edit button {
   padding: 38px 30px;
   border-radius: 10px;
   background: #fff;
+  height: 280px;
+  width: 240px;
 }
+
 .quick-contact-page-1 .title {
   font-size: 22px;
   margin-top: 22px;
