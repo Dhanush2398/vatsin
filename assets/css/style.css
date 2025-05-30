@@ -18622,6 +18622,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 10px;
+  height: 340px;
 }
 @media only screen and (max-width: 575px) {
   .swiper-recent-project-5-wrapper .single-case-studies-5 .inner .active-text-area {
