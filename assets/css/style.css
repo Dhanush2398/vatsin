@@ -342,12 +342,18 @@ p {
   font-weight: var(--p-regular);
   color: var(--color-body);
   margin: 0 0 40px;
+  text-align: justify;
+  hyphens: auto;
+  word-spacing: -1px !important;
 }
 @media only screen and (max-width: 767px) {
   p {
     margin: 0 0 20px;
     font-size: 16px;
     line-height: 28px;
+     text-align: justify;
+  hyphens: auto;
+  word-spacing: -1px !important;
   }
 }
 p.b1 {
@@ -18139,7 +18145,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   }
 }
 .title-style-two-center p.disc {
-  max-width: 50%;
+  max-width: 90%;
   margin: auto;
 }
 @media only screen and (max-width: 991px) {
@@ -20443,13 +20449,19 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 .single-working-process-area .inner-content .title {
   margin-bottom: 7px;
 }
 .single-working-process-area .inner-content p.disc {
   font-size: 15px;
-  max-width: 100%;
+  text-align: justify;
+  hyphens: auto;
+  word-spacing: -1px;
+}
+.how-we-work-area p{
+  color: #fff;
 }
 .single-working-process-area .inner-content * {
   color: #fff;
@@ -29552,4 +29564,8 @@ body[dir=rtl] .demo-1.why-choose-us-area .vedio-icone .video-play-button p {
 }
 .product-header h2{
   color: #F84E1D;
+}
+
+.about-feature-area-wrapper-five p{
+  color: #000 !important;
 }
